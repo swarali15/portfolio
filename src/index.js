@@ -22,7 +22,8 @@ const App = () => (
       <Route exaxt path="/about" component={About} />
       <Route exact path="/contact" component={Contact} />
     </div>
-  
+    <Home/>
+  <Timeline/>
   </div>
 );
 
